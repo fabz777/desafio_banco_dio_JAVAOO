@@ -21,11 +21,10 @@ public class Main {
 		cc.imprimirExtrato();
 		cp.imprimirExtrato();
 		
-		bancodio.addConta(cp);
 		bancodio.addConta(cc);
+		bancodio.addConta(cp);
 		
 		bancodio.getAllContas();
-		
 		
 		
 

@@ -43,6 +43,7 @@ public abstract class Conta {
 	protected void imprimirExtrato() {
 		System.out.println(String.format("== Extrato Conta %s ==", this.tipo));
 		System.out.println(String.format("Titular: %s", cliente.getNome()));
+		System.out.println(String.format("Profissão: %s", cliente.getProfissao()));
 		System.out.println(String.format("CPF: %s", cliente.getCpf()));
 		System.out.println(String.format("Agência: %d", this.agencia));
 		System.out.println(String.format("Número: %d", this.numero));
